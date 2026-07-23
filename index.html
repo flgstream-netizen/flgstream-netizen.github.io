@@ -12,33 +12,34 @@
       text-align: center;
       font-size: 6rem;
     }
-    
-    .row {
+    .series-content {
+      max-width: 1000px;
+      margin: 3rem auto 0 auto;
+      text-align: center;
+    }
+    .series-content h2 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+    .card-grid {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
     }
-    
-    .column {
-      width: 50%;
+    .game-card {
+      width: 220px;
     }
-    .column.right{
-      text-align: right;
+    .game-image {
+      width: 220px;
+      height: 391px;
+      background-color: rgb(160, 160, 160);
+      object-fit: cover;
     }
-    .right h2 {
-      display: inline-block;
+    .game-card p {
       text-align: center;
-      margin-right: 15vw;
-      margin-top: 3rem;
-      font-size: 3rem;
-    }
-    .left-content {
-      width: 672px;
-      margin-left: 12vw;
-      margin-top: 3rem;
-    }
-    .left-content h2 {
-      text-align: center;
-      font-size: 3rem;
-      margin: 0 0 2rem 0;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
     }
     .card-grid {
       display: flex;
@@ -67,30 +68,27 @@
     <div class="column left">
       <div class="left-content">
         <h2>Jelenlegi sorozataink</h2>
-        <div class="card-grid">
-          <div class="game-card">
-            <img src="images/ark.png" class="game-image">
-            <p>ARK: Survival Evolved</p>
+        <div class="series-content">
+          <h2>Jelenlegi sorozataink</h2>
+          <div class="card-grid">
+            <div class="game-card">
+              <img src="images/ark.png" class="game-image">
+              <p>ARK: Survival Evolved</p>
+            </div>
+            <div class="game-card">
+              <img src="images/backrooms.png" class="game-image">
+              <p>Backrooms: Escape Together</p>
+            </div>
+            <div class="game-card">
+              <img src="images/minecraft.png" class="game-image">
+              <p>Minecraft</p>
+            </div>
+            <div class="game-card">
+              <img src="images/terraria.png" class="game-image">
+              <p>Terraria</p>
+            </div>
           </div>
-           <div class="game-card">
-            <img src="images/BET.png" class="game-image">
-            <p>Backrooms: Escape Together</p>
-          </div>
-           <div class="game-card">
-            <img src="images/minecraft.png" class="game-image">
-            <p>Minecraft</p>
-          </div>
-           <div class="game-card">
-            <img src="images/terraria.png" class="game-image">
-            <p>Terraria</p>
-          </div>
-           <div class="game-card">
-            <div class="game-image"></div>
-            <p>Terraria</p>
-          </div>
-        </div>
       </div>
-    </div>
   </div>
     <div class="column right">
       <h2>Hamarosan<br>érkező sorozatok</h2>
