@@ -6,13 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background-color: rgb(100, 100, 100);
+      background-color: rgb(80, 80, 80);
       color: white;
       font-family: Calibri, sans-serif;
     }
     h1 {
       text-align: center;
       font-size: clamp(2.5rem, 8vw, 6rem);
+    }
+    .setup-content {
+      max-width: 1000px;
+      margin: 3rem auto 0 auto;
+      text-align: center;
+    }
+    .setup-content h2 {
+      font-size: 3rem;
+      margin-botton: 1.5rem;
+    }
+    .setup-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .setup-box {
+      width: 400px;
+      max-width: 90vw;
+      background-color: rgb(70, 70, 70);
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: left;
+    }
+    .setup-box h3 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin: 0 0 1rem 0;
+    }
+    .setup-box p {
+      font-size: 1.1rem;
+      line-height: 1.5;
     }
     .series-content {
       max-width: 1400px;
@@ -72,88 +104,86 @@
  </style>
 </head>
 <body>
+<body>
   <h1>FLG</h1>
-  <div class="row">
-    <div class="column left">
-      <div class="left-content">
-        <div class="series-content">
-          <h2>Sorozataink</h2>
-          <div class="card-grid">
-            <div class="game-card">
-              <img src="images/ark.png" class="game-image">
-              <p>ARK: Survival Evolved</p>
-            </div>
-            <div class="game-card">
-              <img src="images/BET.png" class="game-image">
-              <p>Backrooms: Escape Together</p>
-            </div>
-            <div class="game-card">
-              <img src="images/bloodytrapland.png" class="game-image">
-              <p>Bloody Trapland</p>
-            </div>
-            <div class="game-card">
-              <img src="images/chainedtogether.png" class="game-image">
-              <p>Chained Together</p>
-            </div>
-            <div class="game-card">
-              <img src="images/cs2.png" class="game-image">
-              <p>Counter-Strike 2</p>
-            </div>
-            <div class="game-card">
-              <img src="images/fallguys.png" class="game-image">
-              <p>Fall guys</p>
-            </div>
-            <div class="game-card">
-              <img src="images/fortnite.png" class="game-image">
-              <p>Fortnite</p>
-            </div>
-            <div class="game-card">
-              <img src="images/ghostbane.png" class="game-image">
-              <p>Ghostbane</p>
-            </div>
-            <div class="game-card">
-              <img src="images/gtaonline.png" class="game-image">
-              <p>GTA V: Online</p>
-            </div>
-            <div class="game-card">
-              <img src="images/huntshowdown.png" class="game-image">
-              <p>Hunt: Showdown 1896</p>
-            </div>
-            <div class="game-card">
-              <img src="images/minecraft.png" class="game-image">
-              <p>Minecraft</p>
-            </div>
-            <div class="game-card">
-              <img src="images/phasmo.png" class="game-image">
-              <p>Phasmophobia</p>
-            </div>
-            <div class="game-card">
-              <img src="images/stardew.png" class="game-image">
-              <p>Stardew Valley</p>
-            </div>
-            <div class="game-card">
-              <img src="images/terraria.png" class="game-image">
-              <p>Terraria</p>
-            </div>
-            <div class="game-card">
-              <img src="images/terrariasky.png" class="game-image">
-              <p>Terraria - Sky</p>
-            </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-          </div>
-        </div>
+
+  <div class="setup-content">
+    <h2>Setup</h2>
+    <div class="setup-grid">
+      <div class="setup-box">
+        <h3>PC</h3>
+        <p>Ide kerül majd a PC alkatrészek leírása.</p>
       </div>
+      <div class="setup-box">
+        <h3>Perifériák</h3>
+        <p>Ide kerül majd a billentyűzet, egér, monitor stb. leírása.</p>
+      </div>
+    </div>
   </div>
-    <div class="column right">
+
+  <div class="series-content">
+    <h2>Sorozataink</h2>
+    <div class="card-grid">
+      <div class="game-card">
+        <img src="images/ark.png" class="game-image">
+        <p>ARK: Survival Evolved</p>
+      </div>
+      <div class="game-card">
+        <img src="images/BET.png" class="game-image">
+        <p>Backrooms: Escape Together</p>
+      </div>
+      <div class="game-card">
+        <img src="images/bloodytrapland.png" class="game-image">
+        <p>Bloody Trapland</p>
+      </div>
+      <div class="game-card">
+        <img src="images/chainedtogether.png" class="game-image">
+        <p>Chained Together</p>
+      </div>
+      <div class="game-card">
+        <img src="images/cs2.png" class="game-image">
+        <p>Counter-Strike 2</p>
+      </div>
+      <div class="game-card">
+        <img src="images/fallguys.png" class="game-image">
+        <p>Fall guys</p>
+      </div>
+      <div class="game-card">
+        <img src="images/fortnite.png" class="game-image">
+        <p>Fortnite</p>
+      </div>
+      <div class="game-card">
+        <img src="images/ghostbane.png" class="game-image">
+        <p>Ghostbane</p>
+      </div>
+      <div class="game-card">
+        <img src="images/gtaonline.png" class="game-image">
+        <p>GTA V: Online</p>
+      </div>
+      <div class="game-card">
+        <img src="images/huntshowdown.png" class="game-image">
+        <p>Hunt: Showdown 1896</p>
+      </div>
+      <div class="game-card">
+        <img src="images/minecraft.png" class="game-image">
+        <p>Minecraft</p>
+      </div>
+      <div class="game-card">
+        <img src="images/phasmo.png" class="game-image">
+        <p>Phasmophobia</p>
+      </div>
+      <div class="game-card">
+        <img src="images/stardew.png" class="game-image">
+        <p>Stardew Valley</p>
+      </div>
+      <div class="game-card">
+        <img src="images/terraria.png" class="game-image">
+        <p>Terraria</p>
+      </div>
+      <div class="game-card">
+        <img src="images/terrariasky.png" class="game-image">
+        <p>Terraria - Sky</p>
+      </div>
     </div>
   </div>
 </body>
