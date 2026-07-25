@@ -15,6 +15,7 @@
       padding: 1rem 2rem;
       display: flex;
       align-items: center;
+      position: relative;
     }
     .social-icon {
       display: flex;
@@ -27,12 +28,14 @@
     h1 {
       text-align: center;
       font-size: clamp(2.5rem, 8vw, 6rem);
-      margin-top: 2rem;
-      margin-bottom: 20rem;
+      margin: 0;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
     }
     .setup-content {
       max-width: 2000px;
-      margin: 3rem auto 0 auto;
+      margin: 20rem auto 0 auto;
       text-align: center;
     }
     .setup-content h2 {
@@ -136,9 +139,9 @@
       <img src="images/discord.png" class="icon">
     </a>
   </div>
+  <h1>FLG</h1>
 </div>
 <body>
-  <h1>FLG</h1>
 
   <div class="setup-content">
     <h2>Setup</h2>
