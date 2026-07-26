@@ -48,8 +48,8 @@
       text-align: center;
     }
     .setup-content h2 {
-      font-size: 5rem;
-      margin-botton: 1.5rem;
+      font-size: clamp(2rem, 8vw, 5rem);
+      margin-bottom: 1.5rem;
     }
     .setup-grid {
       display: flex;
@@ -86,8 +86,8 @@
       text-align: center;
     }
     .series-content h2 {
-      font-size: 5rem;
-      margin-botton: 1.5;
+      font-size: clamp(2rem, 8vw, 5rem);
+      margin-bottom: 1.5;
     }
     .card-grid {
       display: flex;
@@ -125,6 +125,9 @@
       .game-card {
         width: 130px;
       }
+      .social-icons {
+        gap: 0.5rem;
+      }
       .game-image {
         width: 130px;
         height: 231px;
@@ -144,6 +147,7 @@
         transform: none;
         font-size: 2.2rem;
         margin-top: 1rem;
+        margin-left: 1rem;
       }
       .series-content h2,
       .setup-content h2 {
